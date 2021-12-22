@@ -1,0 +1,16 @@
+.container{
+    display: table;
+    justify-content: center;
+
+}
+.header{
+    /* display: flex; */
+    
+    font-size: 30px;
+}
+.menu{
+    display: table-row-group;
+    font-size: 15px;
+    float: left;
+    align-items: center;
+}
