@@ -8,20 +8,18 @@ import Profile from './Pages/Profile';
 const App = () => {
   return (
     
-      <>
+      <React.Fragment>
         <Routes>          
-            <Route path='/' /*component={<Home/>} / */ >
-            <Home/>
-            </Route>
-            <Route path='/about' component={<About/>} />
-            <Route path='/profile' component={<Profile/>} />
-            <Route path='/contact' component={<ContactUs/>} />
+            <Route exact path='/' element={<Home/>} />
+            <Route path='/about' element={<About/>} />
+            <Route path='/profile' element={<Profile/>} />
+            <Route path='/contact' element={<ContactUs/>} />
           {/* <Route path='/'>
             <Home/>
           </Route> */}
         </Routes>
           
-      </>
+      </React.Fragment>
     
   )
 }

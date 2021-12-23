@@ -7,8 +7,9 @@ import Header from './Header';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header/>
+    
     <Router>
+      <Header/>
       <App />
     </Router>
     
